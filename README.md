@@ -15,10 +15,11 @@ Suitable for use on Linux systems to track system health in real-time
 Setup and Usage
 Install required dependency:
 
-text
+ ```bash
 pip install psutil
 Run the script:
-
+```bash
 text
+ ```bash
 python system_monitor.py
 Monitor terminal output or review system_monitor.log for logged alerts and system status.
